@@ -1,5 +1,6 @@
 kmag (4.8.4-1) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Initial packaging, split from kdeaccesibility.
   * Update Standards-Version to 3.9.3, no changes needed.
   * Add a watch file.
