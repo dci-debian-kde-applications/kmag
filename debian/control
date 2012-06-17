@@ -1,0 +1,27 @@
+Source: kmag
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>,
+ Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+ cmake, debhelper (>= 8.0.0), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.8)
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kmag.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kmag.git
+
+Package: kmag
+Architecture: any
+Section: utils
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: screen magnifier tool
+ KDE's screen magnifier tool.
+ .
+ You can use KMagnifier to magnify a part of the screen just as you would use
+ a lens to magnify a newspaper fine-print or a photograph.  This application is
+ useful for a variety of people: from researchers to artists to web-designers to
+ people with low vision.
+ .
+ This package is part of the KDE accessibility module.
