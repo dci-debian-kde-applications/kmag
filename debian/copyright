@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kmag
-Source: <url://example.com>
+Source: http://www.kde.org
 
 Files: *
 Copyright: 2001-2003 Sarang Lakare <sarang@users.sourceforge.net>
