@@ -25,3 +25,12 @@ Description: screen magnifier tool
  people with low vision.
  .
  This package is part of the KDE accessibility module.
+
+Package: kmag-dbg
+Architecture: any
+Section: debug
+Depends: kmag (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for kmag
+ This package contains debugging files used to investigate problems with kmag.
+ .
+ This package is part of the KDE accessibility module.
