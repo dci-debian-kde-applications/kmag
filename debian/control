@@ -32,6 +32,8 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: kmag (= ${binary:Version}), ${misc:Depends}
+Breaks: kdeaccessibility-dbg
+Replaces: kdeaccessibility-dbg
 Description: debugging symbols for kmag
  This package contains debugging files used to investigate problems with kmag.
  .
