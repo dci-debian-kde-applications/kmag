@@ -1,9 +1,10 @@
-kmag (4.8.4-2) UNRELEASED; urgency=low
+kmag (4.8.4-2) unstable; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * Add Breaks and Replaces againts kdeaccessibility-dbg to kmag-dbg.
   * Improve kmag-dbg's description.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jun 2012 07:59:51 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 18 Jun 2012 13:10:24 -0300
 
 kmag (4.8.4-1) unstable; urgency=low
 
