@@ -35,6 +35,8 @@ Depends: kmag (= ${binary:Version}), ${misc:Depends}
 Breaks: kdeaccessibility-dbg (<< 4:4.8)
 Replaces: kdeaccessibility-dbg (<< 4:4.8)
 Description: debugging symbols for kmag
- This package contains debugging files used to investigate problems with kmag.
+ This package contains the debugging symbols for kmag. It is to be used
+ in order to be able provide proper back traces for possible crashes or
+ for running jovie in gdb or valgrind for meaningful output
  .
  This package is part of the KDE accessibility module.
