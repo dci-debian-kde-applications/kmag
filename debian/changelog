@@ -1,4 +1,4 @@
-kmag (4:4.8.4-1) UNRELEASED; urgency=low
+kmag (4:4.8.4-3) UNRELEASED; urgency=low
 
   * The "I missed the epoch" release.
   * Update debian/copyright:
