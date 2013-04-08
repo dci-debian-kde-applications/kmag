@@ -5,6 +5,9 @@ usr/share/doc/kde/HTML/en/kmag/index.cache.bz2
 usr/share/doc/kde/HTML/en/kmag/index.docbook
 usr/share/doc/kde/HTML/en/kmag/man-kmag.1.docbook
 usr/share/doc/kde/HTML/en/kmag/screenshot.png
+usr/share/icons/hicolor/16x16/actions/followmouse.png
+usr/share/icons/hicolor/16x16/actions/hidemouse.png
+usr/share/icons/hicolor/16x16/actions/window.png
 usr/share/icons/hicolor/16x16/apps/kmag.png
 usr/share/icons/hicolor/32x32/apps/kmag.png
 usr/share/kde4/apps/kmag/kmagui.rc

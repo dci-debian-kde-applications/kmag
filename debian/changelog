@@ -2,6 +2,7 @@ kmag (4:4.10.2-1) UNRELEASED; urgency=low
 
   * New upstream.
   * Bump build-deps.
+  * Update install-file.
 
  -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:54:06 +0000
 
