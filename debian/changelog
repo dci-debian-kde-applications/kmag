@@ -1,10 +1,10 @@
-kmag (4:4.10.2-1) UNRELEASED; urgency=low
+kmag (4:4.10.2-1) experimental; urgency=low
 
   * New upstream.
   * Bump build-deps.
   * Update install-file.
 
- -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:54:06 +0000
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:54:43 +0000
 
 kmag (4:4.8.4-3) unstable; urgency=low
 
