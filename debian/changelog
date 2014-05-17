@@ -1,9 +1,9 @@
-kmag (4:4.13.1-1) UNRELEASED; urgency=medium
+kmag (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update install file.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 20:39:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 22:24:51 +0200
 
 kmag (4:4.12.2-2) unstable; urgency=medium
 
