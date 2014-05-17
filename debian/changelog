@@ -1,6 +1,7 @@
 kmag (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update install file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 20:39:21 +0200
 
