@@ -7,7 +7,7 @@ Copyright: 2001-2003 Sarang Lakare <sarang@users.sourceforge.net>
            2003-2004 Olaf Schmidt <ojschmidt@kde.org>
            2008 Matthew Woehlke <mw_triad@users.sourceforge.net>
            2010 Sebastian Sauer <sebsauer@kdab.com>
-License: GPL-2.0+
+License: GPL-2+
 
 Files: doc/*
 Copyright: 2000-2002 Sarang Lakare <sarang@users.sourceforge.net>
@@ -21,9 +21,9 @@ Comment: index.docbook contains the calls &underFDL, &underGPL and &FDLNotice.
 
 Files: debian/*
 Copyright: 2012 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-License: GPL-2.0+
+License: GPL-2+
 
-License: GPL-2.0+
+License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or

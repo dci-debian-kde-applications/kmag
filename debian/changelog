@@ -1,6 +1,11 @@
-kmag (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kmag (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes. 
+  * New upstream release.
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:02:10 +0000
 
@@ -45,6 +50,13 @@ kmag (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:15:34 -0700
 
+kmag (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 11:13:11 +0100
+
 kmag (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -55,7 +67,7 @@ kmag (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
-  * Add optional depend libqaccessibilityclient-dev. 
+  * Add optional depend libqaccessibilityclient-dev.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 15:36:27 +0100
 
@@ -67,11 +79,11 @@ kmag (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kmag (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 13:24:48 +0000
 
@@ -437,7 +449,7 @@ kmag (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kmag (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:27:12 +0100
 
@@ -482,4 +494,3 @@ kmag (4.8.4-1) unstable; urgency=low
   * Create a -dbg package.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 19:07:03 -0300
-
