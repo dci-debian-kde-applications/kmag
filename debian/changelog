@@ -6,6 +6,8 @@ kmag (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
   * New upstream release.
+  * Have to remove dh_install override --destdir,
+    evidently this option is unavailable in ubuntu. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:02:10 +0000
 
