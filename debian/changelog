@@ -1,3 +1,17 @@
+kmag (4:14.12.2-2~1.gbpe46617) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e466179031836bf54262db05bc643f085febc09c **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 14 Apr 2016 14:32:14 +0200
+
 kmag (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
