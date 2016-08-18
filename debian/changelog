@@ -1,3 +1,11 @@
+kmag (4:16.08.0-1~1.gbp9b5577) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9b55772c2c7bbd68376324b62a0f322114acd643 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:13:10 +0200
+
 kmag (4:14.12.2-2) unstable; urgency=medium
 
   [ Maximiliano Curia ]
