@@ -6,6 +6,7 @@ kmag (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Stop forcing the local installation to debian/tmp, letting the package
     directory as install place.
     - remove kmag.install, no more used now
+  * Remove not-installed file, obsolete now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Aug 2016 22:34:54 +0200
 
