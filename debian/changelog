@@ -3,6 +3,9 @@ kmag (4:16.08.0-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
   * Wrap too long changelog line in version 4:14.12.2-2.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove kmag.install, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Aug 2016 22:34:54 +0200
 
