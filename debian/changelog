@@ -1,3 +1,10 @@
+kmag (4:16.08.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Aug 2016 22:34:54 +0200
+
 kmag (4:14.12.2-2) unstable; urgency=medium
 
   [ Maximiliano Curia ]
