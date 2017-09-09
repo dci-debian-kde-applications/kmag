@@ -25,6 +25,8 @@ Package: kmag
 Architecture: any
 Section: utils
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: screen magnifier tool
  KDE's screen magnifier tool.
  .
