@@ -1,0 +1,49 @@
+---
+name: kmag
+version: 17.08.1
+summary: A screen magnification tool
+description: |-
+    What is KMagnifier?
+    KMagnifier (or kmag, its unix name) is a small utility for Linux to magnify a part of the screen. It was initially written for KDE 1, before becoming dormant. The development was then picked up by me and KMagnifier got its new life. It is currently being maintained/developed actively.
+    KMagnifier is very useful for people with visual disabilities and for those working in the fields of image analysis, web development etc. If you are using kmag, and would like to share the reason why you use kmag, please drop me an email. This website and related stuff (CVS etc.) is hosted on sourceforge. I would like to take this opportunity to thank the kind people at sourceforge and VALinux for their great contribution towards the development of open source software. 
+confinement: strict
+grade: stable
+apps:
+    bomber:
+        command: kf5-launch kmag
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kmag
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    bomber:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/kmag-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
