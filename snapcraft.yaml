@@ -9,7 +9,7 @@ description: |-
 confinement: strict
 grade: stable
 apps:
-    bomber:
+    kmag:
         command: kf5-launch kmag
         plugs:
         - kde-frameworks-5-plug
@@ -32,7 +32,7 @@ plugs:
         default-provider: kde-frameworks-5
         target: kf5
 parts:
-    bomber:
+    kmag:
         after:
         - kde-frameworks-5-dev
         - kde-frameworks-5-env
