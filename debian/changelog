@@ -1,7 +1,8 @@
 kmag (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
-  * New upstream release (17.08.1)
+  * New upstream release (17.08.1):
+    - switches to Qt5/KF5 (Closes: #874974)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
